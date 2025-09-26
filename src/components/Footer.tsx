@@ -12,8 +12,8 @@ export default function Footer() {
               <span className="text-2xl font-bold">MedConnect</span>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Revolutionizing healthcare through AI-powered data collection, 
-              community support, and comprehensive medical record management.
+              Connecting healthcare providers and patients through organized data collection, 
+              community support, and digital medical record management.
             </p>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
@@ -57,9 +57,9 @@ export default function Footer() {
 
           {/* Newsletter */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Stay Updated</h3>
+            <h3 className="text-lg font-semibold mb-6">Stay Informed</h3>
             <p className="text-gray-300 mb-4">
-              Get the latest healthcare technology insights and platform updates.
+              Get updates about our platform development and healthcare technology insights.
             </p>
             <div className="space-y-3">
               <input
@@ -68,7 +68,7 @@ export default function Footer() {
                 className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-400"
               />
               <button className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center">
-                Subscribe
+                Stay Updated
                 <ArrowRight className="ml-2 h-4 w-4" />
               </button>
             </div>

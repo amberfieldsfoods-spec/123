@@ -3,33 +3,33 @@ import { Heart, MessageCircle, Calendar, TrendingUp, Shield, Users } from 'lucid
 const patientFeatures = [
   {
     icon: Heart,
-    title: 'Personalized Care',
-    description: 'Receive treatment recommendations tailored to your specific condition and medical history.'
+    title: 'Organized Health Records',
+    description: 'Keep your medical records organized and easily accessible to share with healthcare providers.'
   },
   {
     icon: MessageCircle,
-    title: 'Community Support',
-    description: 'Connect with others facing similar health challenges and share experiences safely.'
+    title: 'Peer Support Groups',
+    description: 'Connect with others facing similar health challenges in moderated, safe support groups.'
   },
   {
     icon: Calendar,
-    title: 'Easy Booking',
-    description: 'Book appointments with specialists who understand your specific medical needs.'
+    title: 'Appointment Booking',
+    description: 'Book appointments with healthcare providers and keep track of your scheduled visits.'
   },
   {
     icon: TrendingUp,
-    title: 'Progress Tracking',
-    description: 'Monitor your health journey with comprehensive analytics and progress reports.'
+    title: 'Health Tracking',
+    description: 'Track your health progress and treatment outcomes with simple charts and logs.'
   },
   {
     icon: Shield,
-    title: 'Privacy Protected',
-    description: 'Your medical data is secured with enterprise-grade encryption and HIPAA compliance.'
+    title: 'Secure & Private',
+    description: 'Your medical information is protected with secure encryption and HIPAA-compliant storage.'
   },
   {
     icon: Users,
-    title: 'Expert Network',
-    description: 'Access a network of verified healthcare professionals specializing in your condition.'
+    title: 'Healthcare Network',
+    description: 'Connect with healthcare professionals and get guidance from verified medical providers.'
   }
 ];
 
@@ -42,12 +42,12 @@ export default function ForPatients() {
             🤝 For Patients
           </div>
           <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Your Health Journey, 
-            <span className="text-green-600"> Supported</span>
+            Manage Your Health with
+            <span className="text-green-600"> Community Support</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Take control of your health with a supportive community, expert guidance, 
-            and AI-powered insights that help you make informed decisions about your care.
+            Organize your medical records, connect with supportive communities, 
+            and stay in touch with your healthcare providers through our platform.
           </p>
         </div>
 
@@ -74,7 +74,7 @@ export default function ForPatients() {
 
         <div className="text-center mt-12">
           <button className="bg-green-600 text-white px-8 py-4 rounded-lg hover:bg-green-700 transition-colors font-medium shadow-lg hover:shadow-xl">
-            Download Patient App
+            Join Patient Community
           </button>
         </div>
       </div>

@@ -27,12 +27,12 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Get Started with 
+            Learn More About
             <span className="text-blue-600"> MedConnect</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to revolutionize your healthcare practice or patient journey? 
-            Contact us to learn more about our comprehensive healthcare ecosystem.
+            Interested in our healthcare data platform? Contact us to learn more 
+            about how we're connecting doctors and patients through organized data collection.
           </p>
         </div>
 
@@ -75,9 +75,9 @@ export default function Contact() {
             <div className="bg-white p-6 rounded-xl border border-gray-200">
               <h4 className="font-semibold text-gray-900 mb-3">About the Founder</h4>
               <p className="text-gray-600 leading-relaxed">
-                <strong>Rohan Saini</strong> is a healthcare technology innovator focused on 
-                revolutionizing medical data collection and AI-powered patient care through 
-                comprehensive digital health ecosystems.
+                <strong>Rohan Saini</strong> is developing healthcare technology solutions 
+                focused on improving medical data collection and patient-doctor communication 
+                through digital platforms and community support systems.
               </p>
             </div>
           </div>
@@ -85,7 +85,7 @@ export default function Contact() {
           {/* Contact Form */}
           <div className="lg:col-span-2">
             <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h3>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div>
@@ -157,7 +157,7 @@ export default function Contact() {
                 type="submit"
                 className="w-full bg-blue-600 text-white py-4 px-6 rounded-lg hover:bg-blue-700 transition-colors font-medium flex items-center justify-center shadow-lg hover:shadow-xl"
               >
-                Send Message
+                Send Inquiry
                 <Send className="ml-2 h-5 w-5" />
               </button>
             </form>

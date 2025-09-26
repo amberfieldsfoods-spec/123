@@ -3,39 +3,39 @@ import { Brain, Database, Lock, Zap, Cpu, Network } from 'lucide-react';
 const techFeatures = [
   {
     icon: Brain,
-    title: 'Advanced AI & Machine Learning',
-    description: 'Proprietary LLM models trained on millions of medical records for accurate diagnosis and treatment recommendations.',
-    stats: '99.7% Accuracy'
+    title: 'Data Processing & Analytics',
+    description: 'Machine learning algorithms help organize and analyze medical data to identify patterns and trends.',
+    stats: 'In Development'
   },
   {
     icon: Database,
-    title: 'Comprehensive Data Center',
-    description: 'Scalable infrastructure processing terabytes of medical data with real-time analytics and insights.',
-    stats: '500TB+ Data'
+    title: 'Secure Data Storage',
+    description: 'Cloud-based infrastructure for storing and managing medical records with proper backup systems.',
+    stats: 'HIPAA Compliant'
   },
   {
     icon: Lock,
-    title: 'Enterprise Security',
-    description: 'End-to-end encryption, blockchain verification, and HIPAA-compliant data handling protocols.',
-    stats: 'Zero Breaches'
+    title: 'Data Security',
+    description: 'End-to-end encryption and secure authentication to protect sensitive medical information.',
+    stats: 'SSL Encrypted'
   },
   {
     icon: Zap,
-    title: 'Real-time Processing',
-    description: 'Lightning-fast data processing enabling instant community matching and treatment suggestions.',
-    stats: '<100ms Response'
+    title: 'Responsive Platform',
+    description: 'Fast-loading web and mobile applications for quick access to medical records and community features.',
+    stats: 'Mobile Ready'
   },
   {
     icon: Cpu,
-    title: 'Edge Computing',
-    description: 'Distributed computing infrastructure ensuring low latency and high availability worldwide.',
-    stats: '99.99% Uptime'
+    title: 'Cloud Infrastructure',
+    description: 'Reliable cloud hosting ensuring platform availability and data backup for healthcare providers.',
+    stats: '99.5% Uptime'
   },
   {
     icon: Network,
-    title: 'API Integration',
-    description: 'Seamless integration with existing hospital systems, EHRs, and medical equipment.',
-    stats: '1000+ Integrations'
+    title: 'System Integration',
+    description: 'APIs designed to work with common healthcare management systems and electronic health records.',
+    stats: 'API Available'
   }
 ];
 
@@ -45,15 +45,15 @@ export default function Technology() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-purple-900 text-purple-200 text-sm font-medium mb-6">
-            🔬 Advanced Technology
+            💻 Platform Technology
           </div>
           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-            Cutting-Edge Healthcare 
-            <span className="text-purple-400"> Technology</span>
+            Built for Healthcare
+            <span className="text-purple-400"> Professionals</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Our platform leverages the latest advances in AI, machine learning, and healthcare 
-            technology to deliver unprecedented insights and treatment outcomes.
+            Our platform uses modern web technology and secure cloud infrastructure 
+            to provide reliable healthcare data management and community features.
           </p>
         </div>
 
@@ -84,14 +84,14 @@ export default function Technology() {
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-purple-900 to-blue-900 p-8 rounded-2xl border border-purple-500">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Ready to Transform Healthcare?
+              Interested in Our Platform?
             </h3>
             <p className="text-purple-200 mb-6 max-w-2xl mx-auto">
-              Join thousands of healthcare professionals already using our AI-powered platform 
-              to improve patient outcomes and streamline medical workflows.
+              Join healthcare professionals who are testing our platform to improve 
+              patient data management and community support systems.
             </p>
             <button className="bg-purple-600 text-white px-8 py-4 rounded-lg hover:bg-purple-700 transition-colors font-medium shadow-lg hover:shadow-xl">
-              Request Demo
+              Learn More
             </button>
           </div>
         </div>

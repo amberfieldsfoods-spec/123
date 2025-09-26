@@ -3,33 +3,33 @@ import { Stethoscope, FileText, BarChart, Users, Calendar, Microscope } from 'lu
 const doctorFeatures = [
   {
     icon: FileText,
-    title: 'Digital Record Management',
-    description: 'Efficiently manage patient records with AI-powered organization and quick access to medical histories.'
+    title: 'Patient Record Organization',
+    description: 'Organize patient records digitally with easy search and categorization for quick access to medical histories.'
   },
   {
     icon: BarChart,
-    title: 'Treatment Analytics',
-    description: 'Track treatment outcomes and patient progress with comprehensive data visualization and insights.'
+    title: 'Progress Tracking',
+    description: 'Track patient progress and treatment outcomes with simple charts and reporting tools.'
   },
   {
     icon: Users,
-    title: 'Patient Community Monitoring',
-    description: 'Monitor patient interactions in support groups and gain insights from community discussions.'
+    title: 'Community Oversight',
+    description: 'Monitor patient support groups and provide professional guidance when needed in community discussions.'
   },
   {
     icon: Calendar,
-    title: 'Integrated Scheduling',
-    description: 'Streamlined appointment booking system with automatic patient matching based on conditions.'
+    title: 'Appointment Management',
+    description: 'Manage appointments and scheduling with patients through an integrated booking system.'
   },
   {
     icon: Microscope,
-    title: 'AI-Powered Recommendations',
-    description: 'Receive equipment and treatment recommendations based on latest medical research and patient data.'
+    title: 'Resource Access',
+    description: 'Access medical resources and equipment information to support patient treatment decisions.'
   },
   {
     icon: Stethoscope,
-    title: 'Telemedicine Support',
-    description: 'Conduct virtual consultations with integrated health monitoring and prescription management.'
+    title: 'Digital Consultations',
+    description: 'Conduct virtual consultations and maintain digital records of patient interactions.'
   }
 ];
 
@@ -42,16 +42,16 @@ export default function ForDoctors() {
           <div className="space-y-8">
             <div className="space-y-6">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-800 text-sm font-medium">
-                👨‍⚕️ For Healthcare Professionals
+                👨‍⚕️ For Healthcare Providers
               </div>
               <h2 className="text-3xl lg:text-5xl font-bold text-gray-900">
-                Empower Your Practice with 
-                <span className="text-blue-600"> AI Insights</span>
+                Streamline Your Practice with
+                <span className="text-blue-600"> Digital Tools</span>
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Transform your practice with comprehensive patient data management, 
-                AI-driven treatment recommendations, and seamless community integration 
-                that enhances patient outcomes.
+                Improve your practice with organized patient data management, 
+                community support integration, and digital tools that help 
+                enhance patient care and communication.
               </p>
             </div>
 
@@ -70,7 +70,7 @@ export default function ForDoctors() {
             </div>
 
             <button className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-medium shadow-lg hover:shadow-xl">
-              Join as Healthcare Provider
+              Join Our Beta Program
             </button>
           </div>
 
