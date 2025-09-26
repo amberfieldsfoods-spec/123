@@ -31,8 +31,8 @@ export default function Contact() {
             <span className="text-blue-600"> MedConnect</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Interested in our healthcare data platform? Contact us to learn more 
-            about how we're connecting doctors and patients through organized data collection.
+            Interested in our Indian healthcare data platform? Contact us to learn more 
+            about how we're connecting doctors and patients across India through organized data collection.
           </p>
         </div>
 
@@ -48,7 +48,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Email</div>
-                    <div className="text-gray-600">rohan@medconnect.com</div>
+                    <div className="text-gray-600">rohan@medconnect.in</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -57,7 +57,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Phone</div>
-                    <div className="text-gray-600">+1 (555) 123-4567</div>
+                    <div className="text-gray-600">+91 98765 43210</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -66,18 +66,18 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Office</div>
-                    <div className="text-gray-600">Healthcare Innovation District<br />San Francisco, CA</div>
+                    <div className="text-gray-600">Bandra Kurla Complex<br />Mumbai, Maharashtra 400051</div>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="bg-white p-6 rounded-xl border border-gray-200">
-              <h4 className="font-semibold text-gray-900 mb-3">About the Founder</h4>
+              <h4 className="font-semibold text-gray-900 mb-3">About the Founders</h4>
               <p className="text-gray-600 leading-relaxed">
-                <strong>Rohan Saini</strong> is developing healthcare technology solutions 
-                focused on improving medical data collection and patient-doctor communication 
-                through digital platforms and community support systems.
+                <strong>Rohan Saini</strong> (CEO) and <strong>Prince Chhirolya</strong> (CTO) are developing 
+                healthcare technology solutions focused on improving medical data collection and 
+                patient-doctor communication through digital platforms designed for India's healthcare ecosystem.
               </p>
             </div>
           </div>

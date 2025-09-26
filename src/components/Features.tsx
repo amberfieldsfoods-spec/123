@@ -69,8 +69,8 @@ export default function Features() {
             Healthcare Platform Features
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our platform focuses on connecting healthcare providers and patients through 
-            organized data collection, community support, and streamlined communication.
+            Our platform focuses on connecting Indian healthcare providers and patients through 
+            organized data collection, community support, and streamlined communication tailored for India's healthcare needs.
           </p>
         </div>
 

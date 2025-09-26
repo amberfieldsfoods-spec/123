@@ -53,7 +53,7 @@ export default function Technology() {
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Our platform uses modern web technology and secure cloud infrastructure 
-            to provide reliable healthcare data management and community features.
+            to provide reliable healthcare data management and community features designed for India's diverse healthcare landscape.
           </p>
         </div>
 
@@ -84,11 +84,11 @@ export default function Technology() {
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-purple-900 to-blue-900 p-8 rounded-2xl border border-purple-500">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Interested in Our Platform?
+              Join India's Healthcare Innovation
             </h3>
             <p className="text-purple-200 mb-6 max-w-2xl mx-auto">
-              Join healthcare professionals who are testing our platform to improve 
-              patient data management and community support systems.
+              Join Indian healthcare professionals who are testing our platform to improve 
+              patient data management and community support systems across India.
             </p>
             <button className="bg-purple-600 text-white px-8 py-4 rounded-lg hover:bg-purple-700 transition-colors font-medium shadow-lg hover:shadow-xl">
               Learn More

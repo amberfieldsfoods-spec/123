@@ -49,9 +49,9 @@ export default function ForDoctors() {
                 <span className="text-blue-600"> Digital Tools</span>
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Improve your practice with organized patient data management, 
-                community support integration, and digital tools that help 
-                enhance patient care and communication.
+                Improve your Indian medical practice with organized patient data management, 
+                community support integration, and digital tools designed for India's healthcare system
+                that help enhance patient care and communication.
               </p>
             </div>
 

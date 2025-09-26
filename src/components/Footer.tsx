@@ -12,21 +12,21 @@ export default function Footer() {
               <span className="text-2xl font-bold">MedConnect</span>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Connecting healthcare providers and patients through organized data collection, 
-              community support, and digital medical record management.
+              Connecting Indian healthcare providers and patients through organized data collection, 
+              community support, and digital medical record management tailored for India.
             </p>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-blue-400" />
-                <span className="text-gray-300">rohan@medconnect.com</span>
+                <span className="text-gray-300">rohan@medconnect.in</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-400" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">+91 98765 43210</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-blue-400" />
-                <span className="text-gray-300">San Francisco, CA</span>
+                <span className="text-gray-300">Mumbai, Maharashtra</span>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-6">Stay Informed</h3>
             <p className="text-gray-300 mb-4">
-              Get updates about our platform development and healthcare technology insights.
+              Get updates about our platform development and Indian healthcare technology insights.
             </p>
             <div className="space-y-3">
               <input
@@ -79,7 +79,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400">
-              © 2025 MedConnect. All rights reserved. Founded by Rohan Saini.
+              © 2025 MedConnect. All rights reserved. Founded by Rohan Saini & Prince Chhirolya.
             </div>
             <div className="flex space-x-8">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>

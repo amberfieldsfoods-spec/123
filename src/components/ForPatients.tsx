@@ -46,8 +46,8 @@ export default function ForPatients() {
             <span className="text-green-600"> Community Support</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Organize your medical records, connect with supportive communities, 
-            and stay in touch with your healthcare providers through our platform.
+            Organize your medical records, connect with supportive communities across India, 
+            and stay in touch with your healthcare providers through our platform designed for Indian patients.
           </p>
         </div>
 
